@@ -7,6 +7,7 @@
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/ic_back.xml" value="0.194" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/ic_google.xml" value="0.1935" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/round_shape.xml" value="0.1945" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/round_shape_red.xml" value="0.198" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/rounded_text_field.xml" value="0.1935" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_change_password.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_chat_app_item_view.xml" value="0.1921875" />
@@ -28,6 +29,7 @@
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_main.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_notification_tab.xml" value="0.1921875" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_offline.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_otp_verification.xml" value="0.22" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_otp_verify_forget_password.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_privacy_policy.xml" value="0.1921875" />
@@ -64,10 +66,16 @@
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/fragment_summary.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/fragment_your_trips.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/image_show_layout.xml" value="0.1921875" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/location_list_item_view.xml" value="0.1921875" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/mobileverification.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/nav_header_main.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/new_history_list_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/notification_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/payment_list_item.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/review_item.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/upcoming_list_item.xml" value="0.1921875" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/upload_document_popup.xml" value="0.1921875" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/withdraw_item_adapter.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/menu/activity_main_drawer.xml" value="0.1921875" />
       </map>
     </option>

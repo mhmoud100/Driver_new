@@ -840,8 +840,9 @@ public class DocUploadActivity extends AppCompatActivity {
             return new MyViewHolder(itemView);
         }
 
+        @SuppressLint("RecyclerView")
         @Override
-        public void onBindViewHolder(DocAdapter.MyViewHolder holder, int position) {
+        public void onBindViewHolder(DocAdapter.MyViewHolder holder, @SuppressLint("RecyclerView") int position) {
             Log.v("dpcArray", jsonArray + "");
             try {
                 holder.txtDocomentName.setText(jsonArray.optJSONObject(position).optString("name"));
