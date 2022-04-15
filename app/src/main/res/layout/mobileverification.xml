@@ -18,8 +18,8 @@
             android:layout_width="@dimen/_24sdp"
             android:layout_height="@dimen/_24sdp"
             android:layout_margin="10dp"
-            android:src="@drawable/back_icon"
-            android:tint="@color/white" />
+            android:src="@drawable/ic_back"
+            app:tint="@color/white" />
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -32,25 +32,22 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:src="@drawable/ic_otpverification"
-                android:tint="@color/white" />
+                app:tint="@color/white" />
         </FrameLayout>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="@dimen/_5sdp"
-        android:layout_weight="1">
+
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="@dimen/_10sdp"
-
+            android:layout_weight="1"
             android:elevation="@dimen/_10sdp"
             app:cardBackgroundColor="@color/white"
-            app:cardElevation="@dimen/_5sdp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
             app:contentPadding="@dimen/_10sdp">
 
             <LinearLayout
@@ -65,7 +62,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_20sdp"
-                    android:background="@drawable/grey_border_bg"
+                    android:background="@drawable/rounded_text_field"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
@@ -85,21 +82,38 @@
                             app:ccp_showPhoneCode="true"
                             app:ccp_textSize="@dimen/_10sdp" />
                     </FrameLayout>
-
-                    <EditText
-                        android:id="@+id/mobile_no"
-
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="@dimen/_3sdp"
-                        android:layout_marginEnd="@dimen/_1sdp"
-                        android:backgroundTint="@color/transparent"
-                        android:fontFamily="@font/montserrat_semibold"
-                        android:hint="Mobile number"
-                        android:inputType="number"
-                        android:maxLength="12"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_14sdp" />
+                        android:background="@drawable/rounded_text_field">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/mobile_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/transparent"
+                            android:hint="Mobile number"
+                            android:inputType="number"
+                            android:paddingStart="@dimen/_8sdp"
+                            android:textColorHint="@color/black"
+                            android:textSize="@dimen/_14sdp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+<!--                    <EditText-->
+<!--                        android:id="@+id/mobile_no"-->
+
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="@dimen/_3sdp"-->
+<!--                        android:layout_marginEnd="@dimen/_1sdp"-->
+<!--                        android:backgroundTint="@color/transparent"-->
+<!--                        android:fontFamily="@font/montserrat_semibold"-->
+<!--                        android:hint="Mobile number"-->
+<!--                        android:inputType="number"-->
+<!--                        android:maxLength="12"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:textSize="@dimen/_14sdp" />-->
+<!--                -->
                 </LinearLayout>
 
 
@@ -122,10 +136,10 @@
                     android:layout_marginTop="@dimen/_25sdp"
                     android:background="@drawable/round_shape"
                     android:src="@drawable/ic_chevron_right_black_24dp"
-                    android:tint="@color/white" />
+                    app:tint="@color/white" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
-    </LinearLayout>
+
 
 </LinearLayout>

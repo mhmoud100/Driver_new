@@ -5,36 +5,64 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.activities.ComplaintsAcivity">
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:elevation="@dimen/_10sdp"
+        android:background="@color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/backArrow"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
             android:padding="5dp"
-            android:src="@drawable/back" />
+            android:src="@drawable/ic_back" />
 
         <com.pinkcar.providers.utills.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
             android:gravity="center_vertical"
-            android:text="@string/legal"
+
+            android:text = "@string/legal"
             android:textColor="@android:color/black"
             android:textSize="18sp" />
 
     </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?actionBarSize"-->
+<!--        android:elevation="@dimen/_10sdp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/backArrow"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:padding="5dp"-->
+<!--            android:src="@drawable/back" />-->
+
+<!--        <com.pinkcar.providers.utills.MyBoldTextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:text="@string/legal"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="18sp" />-->
+
+<!--    </LinearLayout>-->
 
     <LinearLayout
         android:layout_width="match_parent"

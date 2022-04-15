@@ -27,7 +27,7 @@
             android:layout_width="@dimen/_70sdp"
             android:layout_height="@dimen/_35sdp"
             android:layout_marginEnd="@dimen/_5sdp"
-            android:background="@drawable/rounded_button"
+            android:background="@drawable/round_shape"
             android:text="Browse"
             android:textColor="@color/white"
             android:textSize="@dimen/_10sdp" />

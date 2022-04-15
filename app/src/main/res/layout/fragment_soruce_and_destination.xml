@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/view_grey_bg_"
-    android:orientation="vertical"
-    tools:context="com.pinkcar.booknwin.Transportation.Fragments.SoruceAndDestination">
-
+    android:background="@color/white"
+    android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,19 +15,17 @@
         <ImageView
             android:id="@+id/backArrow"
             android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="10dp"
-            android:src="@drawable/back_icon" />
+            android:src="@drawable/ic_back" />
 
         <LinearLayout
             android:id="@+id/sourceDestLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_10sdp"
-            android:layout_marginEnd="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_margin="10dp"
             android:background="@drawable/white_color_rect_shape"
             android:elevation="@dimen/_5sdp"
             android:orientation="vertical">

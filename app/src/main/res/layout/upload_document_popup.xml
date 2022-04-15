@@ -72,7 +72,7 @@
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@drawable/rounded_button"
+                    android:background="@drawable/round_shape"
                     android:text="Browse"
                     android:textColor="@color/white" />
 
@@ -114,7 +114,7 @@
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@drawable/rounded_button"
+                    android:background="@drawable/round_shape"
                     android:text="Browse"
                     android:textColor="@color/white" />
 
@@ -157,7 +157,7 @@
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@drawable/rounded_button"
+                    android:background="@drawable/round_shape"
                     android:text="Browse"
                     android:textColor="@color/white" />
 
@@ -199,7 +199,7 @@
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@drawable/rounded_button"
+                    android:background="@drawable/round_shape"
                     android:text="Browse"
                     android:textColor="@color/white" />
 
@@ -243,7 +243,7 @@
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@drawable/rounded_button"
+                    android:background="@drawable/round_shape"
                     android:text="Browse"
                     android:textColor="@color/white" />
 
@@ -286,7 +286,7 @@
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
-                    android:background="@drawable/rounded_button"
+                    android:background="@drawable/round_shape"
                     android:text="Browse"
                     android:textColor="@color/white" />
 
@@ -326,7 +326,7 @@
             android:layout_marginStart="@dimen/_25sdp"
             android:layout_marginEnd="@dimen/_25sdp"
             android:layout_marginBottom="@dimen/_15sdp"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/round_shape"
             android:fontFamily="@font/montserrat_semibold"
             android:text="@string/done_label"
             android:textColor="@color/white"

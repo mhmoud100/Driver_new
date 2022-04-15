@@ -8,7 +8,7 @@
     android:layout_marginEnd="@dimen/_4sdp"
     android:layout_marginBottom="@dimen/_1sdp"
     app:cardBackgroundColor="@color/white"
-    app:cardCornerRadius="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
     app:cardElevation="@dimen/_10sdp">
 
     <LinearLayout
@@ -40,7 +40,7 @@
                 android:fontFamily="@font/montserrat_medium"
                 android:paddingStart="@dimen/_10sdp"
                 android:paddingEnd="@dimen/_10sdp"
-                android:text="Very good service provide by user, satisfied the user service."
+                android:text=" Very good service provide by user, satisfied the user service."
                 android:textColor="@color/black"
                 android:textSize="@dimen/_12sdp" />
 
@@ -66,7 +66,7 @@
             android:isIndicator="true"
             android:numStars="5"
             android:progressTint="#FFCA28"
-            android:rating="4.5" />
+            android:rating="3.0" />
 
         <LinearLayout
             android:layout_width="match_parent"

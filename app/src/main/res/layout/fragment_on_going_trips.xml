@@ -61,8 +61,8 @@
             android:layout_below="@+id/error_image"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:text="@string/no_trips"
-            android:textColor="@color/colorPrimary"
+            android:text="@string/you_have_no_on_going_rides"
+            android:textColor="@color/black"
             android:textSize="18sp" />
 
     </RelativeLayout>

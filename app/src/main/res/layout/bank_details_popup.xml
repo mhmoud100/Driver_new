@@ -193,11 +193,11 @@
 
     <Button
         android:id="@+id/oKBtn"
-        android:layout_width="@dimen/_100sdp"
-        android:layout_height="@dimen/_25sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="@dimen/_30sdp"
-        android:background="@color/colorPrimary"
+        android:background="@drawable/round_shape"
         android:text="OK"
         android:textAllCaps="false"
         android:textColor="@color/white" />

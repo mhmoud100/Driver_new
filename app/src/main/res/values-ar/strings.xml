@@ -249,7 +249,7 @@
     <!--Approval status-->
     <string name="approved">تم الموافقة</string>
     <string name="banned">محظور</string>
-    <string name="notifications">إشعار</string>
+    <string name="notifications">إشعارات</string>
     <string name="waiting_for_approval">بانتظار الموافقة</string>
 
     <string name="united_states">الولايات المتحدة الامريكانية</string>
@@ -364,6 +364,8 @@
     <string name="verify_now">تاكيد الان</string>
     <string name="enter_your_otp_code_here">أدخل الرمز هنا:</string>
     <string name="phone_verification">تاكيد الهاتف</string>
+    <string name="you_have_no_on_going_rides">ليس لديك رحلات قادمه</string>
+    <string name="payment_methods">طرق الدفع</string>
 
 
 </resources>

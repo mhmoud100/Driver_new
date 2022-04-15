@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/black"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <ImageView
@@ -112,8 +112,9 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
+            android:background="@drawable/round_shape"
             android:text="Confirm"
+            android:layout_marginHorizontal="5dp"
             android:textColor="@color/white" />
 
         <com.pinkcar.providers.utills.MyButton
@@ -121,7 +122,8 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"
             android:layout_weight="1"
-            android:background="@color/red"
+            android:layout_marginHorizontal="5dp"
+            android:background="@drawable/round_shape_red"
             android:text="Another"
             android:textColor="@color/white" />
 

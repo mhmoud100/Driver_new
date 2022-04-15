@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_8sdp"
                 android:src="@drawable/menu_icon"
-                android:tint="@color/colorPrimary" />
+                app:tint="@color/black" />
 
 
             <TextView
@@ -50,7 +50,7 @@
                 android:fontFamily="@font/montserrat_semibold"
                 android:gravity="center"
                 android:text="Online"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/green"
                 android:textSize="@dimen/_16sdp"
                 android:visibility="visible" />
 
@@ -61,8 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:checked="true"
-                android:theme="@style/SwitchTheme" />
+                android:checked="true" />
 
 
         </RelativeLayout>
@@ -226,7 +225,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="@dimen/_8sdp"
-                        android:background="@drawable/round_corner_primary_color_shape"
+                        android:background="@color/colorPrimary"
                         android:gravity="center"
                         android:orientation="horizontal"
                         android:paddingTop="@dimen/_10sdp"
