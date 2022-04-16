@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appName "Pink Car Driver"><!ENTITY trip "trip"><!ENTITY trips "rides"><!ENTITY tripscap "RIDES"><!ENTITY service "Service">]>
 
 <resources>
-    <string name="app_name">Pin Taxi Driver</string>
+    <string name="app_name">Speed</string>
     <string name="google_map_api">AIzaSyDYbRQKyMGHPP-hh1jOTaPv3f3jSXQScUg</string>
 
     <string name="facebook_app_id">562245434540329</string>
@@ -318,4 +318,5 @@
     <string name="enter_your_otp_code_here">Enter your OTP code here:</string>
     <string name="phone_verification">Phone Verification</string>
     <string name="you_have_no_on_going_rides">You Have no on Going Rides</string>
+    <string name="secure_passwords">Secure Passwords are at least 8 charachters long and include numbers and symbols.</string>
 </resources>

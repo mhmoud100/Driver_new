@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/tools"
+
     android:background="@color/white"
     android:orientation="vertical">
 
@@ -122,7 +123,8 @@
 
 
                 <Button
-
+                    android:stateListAnimator="@null"
+                    android:elevation="10dp"
                     android:id="@+id/addAccountDetailsBtn"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_25sdp"

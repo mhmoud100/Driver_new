@@ -95,6 +95,8 @@
             android:layout_marginTop="@dimen/_30sdp"
             android:background="@drawable/round_shape"
             android:text="@string/update"
+            android:stateListAnimator="@null"
+            android:elevation="10dp"
             android:textColor="@color/text_color_white"
             android:textSize="@dimen/_14sdp" />
     </LinearLayout>

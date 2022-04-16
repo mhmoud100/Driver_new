@@ -183,6 +183,9 @@
             android:layout_marginEnd="@dimen/_10sdp"
             android:layout_marginBottom="@dimen/_25sdp"
             android:layout_weight="1"
+            android:stateListAnimator="@null"
+            android:elevation="10dp"
+
             android:background="@drawable/round_shape"
             android:fontFamily="@font/montserrat_semibold"
             android:paddingStart="@dimen/_5sdp"
@@ -206,6 +209,9 @@
             android:paddingStart="@dimen/_5sdp"
             android:paddingEnd="@dimen/_5sdp"
             android:text="Cancel"
+            android:stateListAnimator="@null"
+            android:elevation="10dp"
+
             android:textColor="@color/white"
             android:textSize="@dimen/_12sdp" />
 

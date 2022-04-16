@@ -8,6 +8,7 @@
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/cancel_button_bg.xml" value="0.1935" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/ic_back.xml" value="0.194" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/ic_google.xml" value="0.1935" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/round_shape.xml" value="0.1945" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/round_shape_red.xml" value="0.198" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/rounded_text_field.xml" value="0.1935" />
@@ -39,7 +40,7 @@
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_privacy_policy.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_profile.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_show_profile.xml" value="0.1921875" />
-        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_sign_up.xml" value="0.18" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_sos_call.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_terms_of_use.xml" value="0.1921875" />

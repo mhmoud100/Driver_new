@@ -170,8 +170,7 @@
                                 android:id="@+id/user_name"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_semibold"
-                                android:maxLines="1"
+                                    android:maxLines="1"
                                 android:paddingStart="@dimen/_4sdp"
                                 android:paddingEnd="@dimen/_4sdp"
                                 android:text=""
@@ -202,7 +201,6 @@
                                 android:id="@+id/txtTotalEarning"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_semibold"
                                 android:maxLines="1"
                                 android:text=""
                                 android:textColor="@color/black"
@@ -213,7 +211,6 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_4sdp"
-                                android:fontFamily="@font/montserrat_regular"
                                 android:maxLines="1"
                                 android:text="Earned"
                                 android:textColor="@color/recyclerview_item_text"
@@ -228,7 +225,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="@dimen/_8sdp"
-                        android:background="@drawable/border_header"
+                        android:background="@color/colorPrimary"
                         android:gravity="center"
                         android:orientation="horizontal"
                         android:paddingTop="@dimen/_10sdp"
@@ -254,8 +251,7 @@
                                 android:id="@+id/tvTrips"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_semibold"
-                                android:text="0"
+                                    android:text="0"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/_14sdp" />
 
@@ -263,7 +259,6 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_regular"
                                 android:text="Rides"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/_12sdp" />
@@ -289,8 +284,7 @@
                                 android:id="@+id/tvEarning"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_semibold"
-                                android:text="0"
+                                    android:text="0"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/_12sdp" />
 
@@ -298,7 +292,6 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_regular"
                                 android:text="Earning"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/_12sdp"
@@ -327,8 +320,7 @@
                                 android:id="@+id/tvCommision"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_semibold"
-                                android:text="0"
+                                    android:text="0"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/_12sdp" />
 
@@ -336,7 +328,6 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_regular"
                                 android:text="Commision"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/_12sdp" />
@@ -869,7 +860,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_5sdp"
                             android:ellipsize="end"
-                            android:fontFamily="@font/montserrat_semibold"
                             android:maxLength="25"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_14sdp" />
@@ -957,7 +947,6 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:layout_weight="1"
                             android:ellipsize="end"
-                            android:fontFamily="@font/montserrat_semibold"
                             android:maxLines="2"
                             android:text="Anamika Enclave"
                             android:textColor="@color/black"
@@ -969,7 +958,6 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:ellipsize="end"
-                            android:fontFamily="@font/montserrat_semibold"
                             android:maxLines="2"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp" />
@@ -990,7 +978,6 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat_semibold"
                         android:text="PickUp Notes: "
                         android:textColor="@color/black"
                         android:textSize="@dimen/_10sdp" />
@@ -1794,7 +1781,6 @@
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="top"
                                 android:layout_weight="50"
-                                android:fontFamily="@font/montserrat_semibold"
                                 android:gravity="start|center"
                                 android:text="User"
                                 android:textColor="@color/black"
@@ -1823,7 +1809,6 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_semibold"
                                 android:text="Distance"
                                 android:textColor="@color/black"
                                 android:textSize="@dimen/_14sdp" />
@@ -1832,8 +1817,7 @@
                                 android:id="@+id/tvDistance"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_semibold"
-                                android:text=""
+                                    android:text=""
                                 android:textSize="@dimen/_14sdp" />
                         </LinearLayout>
 
@@ -1844,7 +1828,6 @@
                         android:id="@+id/txtSchedule"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/montserrat_semibold"
                         android:gravity="center"
                         android:padding="@dimen/_5sdp"
                         android:text="Schedule"
@@ -1872,8 +1855,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_semibold"
-                                android:text="pick up"
+                                    android:text="pick up"
                                 android:textAllCaps="true"
                                 android:textColor="@color/recyclerview_item_text"
                                 android:textSize="@dimen/_10sdp" />
@@ -1882,7 +1864,6 @@
                                 android:id="@+id/txtPickup"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_regular"
                                 android:maxLength="40"
                                 android:maxLines="1"
                                 android:text="Chhattarpur Road"
@@ -1908,8 +1889,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_semibold"
-                                android:text="Drop off"
+                                    android:text="Drop off"
                                 android:textAllCaps="true"
                                 android:textColor="@color/recyclerview_item_text"
                                 android:textSize="@dimen/_10sdp" />
@@ -1919,7 +1899,6 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_4sdp"
-                                android:fontFamily="@font/montserrat_regular"
                                 android:maxLength="40"
                                 android:maxLines="1"
                                 android:text="My Home"
@@ -1943,7 +1922,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="@dimen/_15sdp"
                             android:layout_marginRight="@dimen/_3sdp"
-                            android:fontFamily="@font/montserrat_semibold"
                             android:padding="@dimen/button_padding"
                             android:text="@string/cancel"
                             android:textColor="@color/red"
@@ -1956,7 +1934,6 @@
                             android:layout_marginStart="@dimen/_3sdp"
 
                             android:backgroundTint="@color/colorPrimary"
-                            android:fontFamily="@font/montserrat_semibold"
                             android:padding="@dimen/button_padding"
                             android:text="Accept"
                             android:textColor="@color/button_text_color"
@@ -1983,7 +1960,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/_10sdp"
-                android:fontFamily="@font/montserrat_semibold"
                 android:gravity="center"
                 android:text="Your profile is not active"
                 android:textColor="@color/white"
@@ -2110,8 +2086,7 @@
                     android:layout_marginTop="@dimen/_5sdp"
                     android:layout_marginEnd="@dimen/_5sdp"
                     android:layout_marginBottom="@dimen/_5sdp"
-                    android:background="@drawable/red_color_rect_shape"
-                    android:fontFamily="@font/montserrat_medium"
+                    android:background="@drawable/round_shape"
 
                     android:padding="@dimen/_5sdp"
                     android:text="Submit Review"

@@ -329,11 +329,13 @@
                 android:id="@+id/btnLogout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:layout_marginHorizontal="10dp"
                 android:layout_alignParentBottom="true"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="10dp"
                 android:background="@drawable/round_shape"
                 android:text="@string/logout"
+                android:stateListAnimator="@null"
+                android:elevation="10dp"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_16sdp" />
         </RelativeLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appName "Pink Car Driver"><!ENTITY trip "trip"><!ENTITY trips "rides"><!ENTITY tripscap "RIDES"><!ENTITY service "Service">]>
 
 <resources>
-    <string name="app_name">Pin Taxi Driver</string>
+    <string name="app_name">Speed</string>
     <string name="google_map_api">AIzaSyDYbRQKyMGHPP-hh1jOTaPv3f3jSXQScUg</string>
 
     <string name="facebook_app_id">562245434540329</string>
@@ -366,6 +366,7 @@
     <string name="phone_verification">تاكيد الهاتف</string>
     <string name="you_have_no_on_going_rides">ليس لديك رحلات قادمه</string>
     <string name="payment_methods">طرق الدفع</string>
+    <string name="secure_passwords">الباسورد الامن هو الذي يكون مكون من 8 حروف ويحتوي علي ارقام ورموز.</string>
 
 
 </resources>

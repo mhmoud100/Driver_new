@@ -6,27 +6,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-        <TextView
-            android:id="@+id/logo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/border_header"
-            android:gravity="center"
-            android:text="@string/driver"
-            android:padding="10dp"
-            android:textColor="@color/white"
-            android:textSize="@dimen/_24sdp" />
-
-
-    <!--    Background Image    -->
-    <ImageView
-
+    <TextView
+        android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/viewLoginLayout"
-        android:layout_alignParentTop="true"
+        android:background="@drawable/border_header"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_24sdp" />
 
-        android:contentDescription="TODO" />
+
+
 
 
     <ImageView
@@ -54,6 +46,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
             android:layout_marginBottom="8dp"
+            android:elevation="10dp"
             android:background="@drawable/rounded_text_field">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -92,6 +85,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginEnd="50dp"
             android:layout_marginBottom="8dp"
+            android:elevation="10dp"
             android:background="@drawable/rounded_text_field"
             app:passwordToggleEnabled="true">
 
@@ -130,6 +124,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
+            android:elevation="10dp"
+            android:stateListAnimator="@null"
             android:background="@drawable/round_shape"
             android:text="@string/login"
             android:textColor="@color/white" />
@@ -191,7 +187,7 @@
         android:id="@+id/need_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:elevation="10dp"
         android:layout_above="@+id/linear_sign_with"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
@@ -229,24 +225,21 @@
         android:id="@+id/txtSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/footer"
+        android:layout_alignParentBottom="true"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="50dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/round_shape"
+        android:elevation="10dp"
+
+        android:stateListAnimator="@null"
         android:text="@string/resgister"
         android:textColor="@color/white" />
 
-    <View
-        android:id="@+id/footer"
-        android:layout_width="match_parent"
-        android:layout_height="?actionBarSize"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/border_footer" />
 
 
-<!--    <LinearLayout-->
+    <!--    <LinearLayout-->
 <!--        android:id="@+id/bottomLayout"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content"-->
