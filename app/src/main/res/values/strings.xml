@@ -318,5 +318,6 @@
     <string name="enter_your_otp_code_here">Enter your OTP code here:</string>
     <string name="phone_verification">Phone Verification</string>
     <string name="you_have_no_on_going_rides">You Have no on Going Rides</string>
-    <string name="secure_passwords">Secure Passwords are at least 8 charachters long and include numbers and symbols.</string>
+    <string name="secure_passwords">Secure Passwords are at least 8 characters long and include numbers and symbols.</string>
+
 </resources>
