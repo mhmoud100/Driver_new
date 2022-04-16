@@ -36,7 +36,7 @@
         android:id="@+id/lnrTitle"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@color/transparent">
+        android:background="@drawable/border_header">
 
         <ImageView
             android:id="@+id/backArrow"
@@ -45,7 +45,8 @@
             android:layout_gravity="center"
             android:layout_marginStart="10dp"
             android:padding="5dp"
-            android:src="@drawable/ic_back" />
+            android:src="@drawable/ic_back"
+            app:tint="@color/white"/>
 
         <com.pinkcar.providers.utills.MyBoldTextView
             android:layout_width="match_parent"
@@ -54,7 +55,7 @@
             android:gravity="center_vertical"
 
             android:text = "@string/earnings"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="18sp" />
 
     </LinearLayout>

@@ -10,11 +10,11 @@
         android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_8sdp"
-        android:fontFamily="@font/montserrat_semibold"
         android:gravity="center"
+        android:background="@drawable/border_header"
         android:text="@string/registration"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:padding="10dp"
         android:textSize="@dimen/_24sdp" />
 
 
@@ -101,7 +101,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edit_text_password"
+                android:id="@+id/etPassword"
                 android:layout_width="match_parent"
                 android:layout_height="24dp"
                 android:background="@null"

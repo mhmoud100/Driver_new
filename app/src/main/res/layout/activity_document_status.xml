@@ -3,13 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Activities.DocumentStatus">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/border_header"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recDocuments"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </androidx.recyclerview.widget.RecyclerView>
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

@@ -14,7 +14,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@drawable/border_header"
         android:orientation="horizontal">
 
         <ImageView
@@ -24,7 +24,8 @@
             android:layout_gravity="center_vertical"
             android:layout_margin="10dp"
             android:padding="5dp"
-            android:src="@drawable/back_white" />
+            android:src="@drawable/ic_back"
+            app:tint="@color/white"/>
 
         <TextView
             android:id="@+id/lblTitle"

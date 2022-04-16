@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/border_header.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/cancel_button_bg.xml" value="0.1935" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/ic_back.xml" value="0.194" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/ic_google.xml" value="0.1935" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/round_shape.xml" value="0.1945" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/round_shape_red.xml" value="0.198" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/rounded_text_field.xml" value="0.1935" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/triangle.xml" value="0.2" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout-v23/fragment_map.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_change_password.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_chat_app_item_view.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_complaints.xml" value="0.1921875" />
@@ -24,7 +27,7 @@
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_google_login.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_history.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_history_details.xml" value="0.1921875" />
-        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_intro.xml" value="0.1" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_intro.xml" value="0.25" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_legal.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/activity_main.xml" value="0.1921875" />

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
 <!--    <LinearLayout-->
 <!--        android:id="@+id/top"-->
@@ -33,7 +34,7 @@
         android:id="@+id/top"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@color/transparent">
+        android:background="@drawable/border_header">
 
         <ImageView
             android:id="@+id/backArrow"
@@ -42,7 +43,8 @@
             android:layout_gravity="center"
             android:layout_marginStart="10dp"
             android:padding="5dp"
-            android:src="@drawable/ic_back" />
+            android:src="@drawable/ic_back"
+            app:tint="@color/white"/>
 
         <com.pinkcar.providers.utills.MyBoldTextView
             android:id="@+id/toolName"
@@ -52,7 +54,7 @@
             android:gravity="center_vertical"
 
             android:text = "@string/update_name"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:textSize="18sp" />
 
     </LinearLayout>

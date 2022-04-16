@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:elevation="10dp"
+        android:background="@drawable/border_header"
         android:orientation="vertical">
 
         <ImageView
@@ -19,7 +20,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="10dp"
-            android:src="@drawable/ic_back" />
+            android:src="@drawable/ic_back"
+            app:tint="@color/white"/>
 
         <LinearLayout
             android:id="@+id/sourceDestLayout"

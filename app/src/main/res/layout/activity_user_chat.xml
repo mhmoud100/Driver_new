@@ -10,7 +10,7 @@
         android:id="@+id/backLayout"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@color/transparent"
+        android:background="@drawable/border_header"
         android:orientation="horizontal">
 
         <ImageView
@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_margin="10dp"
-            android:src="@drawable/ic_back" />
+            android:src="@drawable/ic_back"
+            app:tint="@color/white"/>
 
         <TextView
             android:id="@+id/lblTitle"

@@ -11,8 +11,9 @@
         android:layout_height="@dimen/_44sdp"
         android:fontFamily="@font/montserrat_semibold"
         android:gravity="center"
+        android:background="@drawable/border_header"
         android:text="@string/reason_to_cancel"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="@dimen/_13sdp" />
 
     <RadioGroup

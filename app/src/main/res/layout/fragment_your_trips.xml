@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.fragment.app.FragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@android:id/tabhost"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
@@ -37,7 +38,7 @@
             android:id="@+id/app_bar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="@color/transparent">
+            android:background="@drawable/border_header">
 
             <ImageView
                 android:id="@+id/backArrow"
@@ -46,7 +47,8 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="10dp"
                 android:padding="5dp"
-                android:src="@drawable/ic_back" />
+                android:src="@drawable/ic_back"
+                app:tint="@color/white"/>
 
             <com.pinkcar.providers.utills.MyBoldTextView
                 android:layout_width="match_parent"
@@ -55,7 +57,7 @@
                 android:gravity="center_vertical"
 
                 android:text = "@string/your_trips"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
         </LinearLayout>

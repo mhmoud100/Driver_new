@@ -31,6 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:background="@drawable/border_header"
             android:padding="@dimen/_10sdp">
 
             <ImageView
@@ -39,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_8sdp"
                 android:src="@drawable/menu_icon"
-                app:tint="@color/black" />
+                app:tint="@color/white" />
 
 
             <TextView
@@ -61,7 +62,9 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:checked="true" />
+                android:checked="true"
+                android:trackTint="@color/white"
+                android:theme="@style/SwitchTheme" />
 
 
         </RelativeLayout>
@@ -225,7 +228,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="@dimen/_8sdp"
-                        android:background="@color/colorPrimary"
+                        android:background="@drawable/border_header"
                         android:gravity="center"
                         android:orientation="horizontal"
                         android:paddingTop="@dimen/_10sdp"
