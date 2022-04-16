@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/border_footer.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/border_header.xml" value="0.2" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/cancel_button_bg.xml" value="0.1935" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/drawable/ic_back.xml" value="0.194" />
@@ -80,6 +81,7 @@
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/upload_document_popup.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/layout/withdraw_item_adapter.xml" value="0.1921875" />
         <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/menu/activity_main_drawer.xml" value="0.1921875" />
+        <entry key="..\:/Projets/source code/android code/Driver/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2" />
       </map>
     </option>
   </component>

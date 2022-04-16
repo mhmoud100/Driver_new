@@ -229,7 +229,7 @@
         android:id="@+id/txtSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/footer"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="50dp"
@@ -238,6 +238,12 @@
         android:text="@string/resgister"
         android:textColor="@color/white" />
 
+    <View
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border_footer" />
 
 
 <!--    <LinearLayout-->
