@@ -120,7 +120,7 @@
             android:id="@+id/btnSend"
             android:layout_width="@dimen/_40sdp"
             android:layout_height="@dimen/_40sdp"
-            android:background="@drawable/round_shape"
+            android:background="@drawable/rounded_button"
             android:elevation="@dimen/_5sdp"
             android:src="@drawable/ic_send_black_24dp" />
     </LinearLayout>
