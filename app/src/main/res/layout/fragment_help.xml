@@ -19,7 +19,7 @@
 <!--            android:layout_margin="@dimen/_10sdp"-->
 <!--            android:background="@drawable/back_white" />-->
 
-<!--        <com.pinkcar.providers.utills.MyTextView-->
+<!--        <com.speed.provider.utills.MyTextView-->
 <!--            android:layout_width="match_parent"-->
 <!--            android:layout_height="match_parent"-->
 <!--            android:layout_marginStart="@dimen/_10sdp"-->
@@ -45,7 +45,7 @@
             android:src="@drawable/ic_back"
             app:tint="@color/white"/>
 
-        <com.pinkcar.providers.utills.MyBoldTextView
+        <com.speed.provider.utills.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"

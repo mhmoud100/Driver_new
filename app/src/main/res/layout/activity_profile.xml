@@ -26,7 +26,7 @@
                 app:tint="@color/white"
                 android:src="@drawable/ic_back" />
 
-            <com.pinkcar.providers.utills.MyBoldTextView
+            <com.speed.provider.utills.MyBoldTextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
@@ -321,7 +321,7 @@
 
             </ScrollView>
 
-            <com.pinkcar.providers.utills.MyButton
+            <com.speed.provider.utills.MyButton
                 android:id="@+id/btnLogout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -101,7 +101,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <com.pinkcar.providers.utills.MyButton
+        <com.speed.provider.utills.MyButton
             android:id="@+id/btOk"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"
@@ -111,7 +111,7 @@
             android:layout_marginHorizontal="5dp"
             android:textColor="@color/white" />
 
-        <com.pinkcar.providers.utills.MyButton
+        <com.speed.provider.utills.MyButton
             android:id="@+id/btCancel"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"

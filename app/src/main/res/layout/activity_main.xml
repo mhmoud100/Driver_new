@@ -51,7 +51,7 @@
                     android:padding="@dimen/_3sdp"
                     android:weightSum="2">
 
-                    <com.pinkcar.providers.utills.MyBoldTextView
+                    <com.speed.provider.utills.MyBoldTextView
                         android:id="@+id/legal_id"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
                         android:textColor="@color/done_disabled_dark"
                         android:textSize="@dimen/_10sdp" />
 
-                    <com.pinkcar.providers.utills.MyBoldTextView
+                    <com.speed.provider.utills.MyBoldTextView
                         android:id="@+id/footer_item_version"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

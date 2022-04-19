@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.pinkcar.providers">
+    package="com.speed.provider">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -23,7 +23,7 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <application
-        android:name="com.pinkcar.providers.ClassLuxApp"
+        android:name="com.speed.provider.ClassLuxApp"
         android:allowBackup="false"
         android:fullBackupContent="false"
         android:autoMirrored="true"
@@ -38,22 +38,22 @@
         tools:replace="android:allowBackup">
 
         <activity
-            android:name=".ui.activities.login.IntroActivity"
+            android:name="com.speed.provider.ui.activities.login.IntroActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name="com.pinkcar.providers.ui.activities.login.FaceBookLoginActivity"
+            android:name="com.speed.provider.ui.activities.login.FaceBookLoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.login.GoogleLoginActivity"
+            android:name="com.speed.provider.ui.activities.login.GoogleLoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Transparent.NoActionBar" />
 
         <activity
-            android:name="com.pinkcar.providers.ui.activities.NotificationTab"
+            android:name="com.speed.provider.ui.activities.NotificationTab"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -62,28 +62,28 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.pinkcar.providers.ui.activities.DocUploadActivity" />
+        <activity android:name="com.speed.provider.ui.activities.DocUploadActivity" />
 
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
 
         <activity
-            android:name="com.pinkcar.providers.ui.activities.WithdrawActivity"
+            android:name="com.speed.provider.ui.activities.WithdrawActivity"
 
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.OtpVerification"
+            android:name="com.speed.provider.ui.activities.OtpVerification"
 
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.WithdrawAmountActivity"
+            android:name="com.speed.provider.ui.activities.WithdrawAmountActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden|adjustPan" />
-        <activity android:name="com.pinkcar.providers.ui.activities.DocumentStatus" />
+        <activity android:name="com.speed.provider.ui.activities.DocumentStatus" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.SplashScreen"
+            android:name="com.speed.provider.ui.activities.SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -92,16 +92,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Login"
+            android:name="com.speed.provider.Login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.FullImage"
+            android:name="com.speed.provider.ui.activities.FullImage"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.login.SignUp"
+            android:name="com.speed.provider.ui.activities.login.SignUp"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.chat.UserChatActivity"
+            android:name="com.speed.provider.chat.UserChatActivity"
 
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
@@ -109,11 +109,11 @@
 
         </activity>
         <activity
-            android:name="com.pinkcar.providers.ui.activities.UserReview"
+            android:name="com.speed.provider.ui.activities.UserReview"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.login.ForgotPassword"
+            android:name="com.speed.provider.ui.activities.login.ForgotPassword"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
@@ -122,50 +122,50 @@
             android:value="@string/google_map_api" />
 
         <activity
-            android:name="com.pinkcar.providers.ui.activities.MainActivity"
+            android:name="com.speed.provider.ui.activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.EditProfile"
+            android:name="com.speed.provider.ui.activities.EditProfile"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.ShowProfile"
+            android:name="com.speed.provider.ui.activities.ShowProfile"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.HistoryDetails"
+            android:name="com.speed.provider.ui.activities.HistoryDetails"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.HistoryActivity"
+            android:name="com.speed.provider.ui.activities.HistoryActivity"
             android:label="History"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.CouponActivity"
+            android:name="com.speed.provider.ui.activities.CouponActivity"
             android:label="Coupon"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.login.ChangePassword"
+            android:name="com.speed.provider.ui.activities.login.ChangePassword"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.CustomGooglePlacesSearch"
+            android:name="com.speed.provider.ui.activities.CustomGooglePlacesSearch"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
 
-        <service android:name="com.pinkcar.providers.fcm.FCMService">
+        <service android:name="com.speed.provider.fcm.FCMService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -175,7 +175,7 @@
             android:value="@string/default_notification_channel_id" />
 
         <receiver
-            android:name="com.pinkcar.providers.fcm.MyBroadcastReceiver"
+            android:name="com.speed.provider.fcm.MyBroadcastReceiver"
             android:exported="true" />
 
         <meta-data
@@ -207,63 +207,63 @@
 
 
         <activity
-            android:name="com.pinkcar.providers.ui.activities.SosCallActivity"
+            android:name="com.speed.provider.ui.activities.SosCallActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.ComplaintsAcivity"
+            android:name="com.speed.provider.ui.activities.ComplaintsAcivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.LegalActivity"
+            android:name="com.speed.provider.ui.activities.LegalActivity"
             android:hardwareAccelerated="false"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.TermsOfUseActivity"
-            android:hardwareAccelerated="false"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.pinkcar.providers.ui.activities.PrivacyPolicyActivity"
+            android:name="com.speed.provider.ui.activities.TermsOfUseActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.UpdateProfile"
+            android:name="com.speed.provider.ui.activities.PrivacyPolicyActivity"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.WaitingForApproval"
+            android:name="com.speed.provider.ui.activities.UpdateProfile"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.speed.provider.ui.activities.WaitingForApproval"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.FavouritePlaceSearch"
+            android:name="com.speed.provider.ui.activities.FavouritePlaceSearch"
             android:hardwareAccelerated="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.DocumentUpload"
+            android:name="com.speed.provider.ui.activities.DocumentUpload"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
 
         <activity
-            android:name="com.pinkcar.providers.ui.activities.TrackActivity"
+            android:name="com.speed.provider.ui.activities.TrackActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.Profile"
+            android:name="com.speed.provider.ui.activities.Profile"
             android:configChanges="orientation|keyboardHidden"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.pinkcar.providers.ui.activities.EarningActivity"
+            android:name="com.speed.provider.ui.activities.EarningActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />

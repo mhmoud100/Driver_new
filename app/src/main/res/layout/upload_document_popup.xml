@@ -20,7 +20,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/filechooselogo" />
 
-        <com.pinkcar.providers.utills.MyTextView
+        <com.speed.provider.utills.MyTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -58,7 +58,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_5sdp"
@@ -67,7 +67,7 @@
                     android:text="Motor Vehicle Inspection Certificate"
                     android:textColor="@color/black" />
 
-                <com.pinkcar.providers.utills.MyButton
+                <com.speed.provider.utills.MyButton
                     android:id="@+id/btMotorInspectCertificate"
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
@@ -102,7 +102,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_5sdp"
@@ -111,7 +111,7 @@
                     android:text="PSV Insurance Certificate"
                     android:textColor="@color/black" />
 
-                <com.pinkcar.providers.utills.MyButton
+                <com.speed.provider.utills.MyButton
                     android:id="@+id/btPsvInsurenceCertificate"
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
@@ -147,7 +147,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_5sdp"
@@ -156,7 +156,7 @@
                     android:text="Certificate Of Good Conduct"
                     android:textColor="@color/black" />
 
-                <com.pinkcar.providers.utills.MyButton
+                <com.speed.provider.utills.MyButton
                     android:id="@+id/btGoodConduct"
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
@@ -191,7 +191,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_5sdp"
@@ -200,7 +200,7 @@
                     android:text="PSV License"
                     android:textColor="@color/black" />
 
-                <com.pinkcar.providers.utills.MyButton
+                <com.speed.provider.utills.MyButton
                     android:id="@+id/btPSVLicense"
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
@@ -237,7 +237,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_5sdp"
@@ -246,7 +246,7 @@
                     android:text="National ID / Passport"
                     android:textColor="@color/black" />
 
-                <com.pinkcar.providers.utills.MyButton
+                <com.speed.provider.utills.MyButton
                     android:id="@+id/btpersonalId"
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"
@@ -282,7 +282,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_5sdp"
@@ -291,7 +291,7 @@
                     android:text="LogBook"
                     android:textColor="@color/black" />
 
-                <com.pinkcar.providers.utills.MyButton
+                <com.speed.provider.utills.MyButton
                     android:id="@+id/btPersonalPic"
                     android:layout_width="@dimen/_60sdp"
                     android:layout_height="@dimen/_35sdp"

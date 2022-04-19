@@ -2,7 +2,7 @@
 
 <resources>
     <string name="app_name">Speed</string>
-    <string name="google_map_api">AIzaSyDYbRQKyMGHPP-hh1jOTaPv3f3jSXQScUg</string>
+    <string name="google_map_api">AIzaSyD987pLKiSNASVnDzsvbPMHTxSvZR_bxRg</string>
 
     <string name="facebook_app_id">562245434540329</string>
     <string name="fb_login_protocol_scheme">fb562245434540329</string>

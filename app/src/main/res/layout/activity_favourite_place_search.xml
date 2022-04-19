@@ -72,7 +72,7 @@
                     app:layout_constraintStart_toEndOf="@id/llLeftTop"
                     tools:ignore="MissingConstraints">
 
-                    <com.pinkcar.providers.utills.MyTextView
+                    <com.speed.provider.utills.MyTextView
                         android:id="@+id/addressType"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
                         android:text="Home Address"
                         android:textSize="14dp" />
 
-                    <com.pinkcar.providers.utills.MyEditText
+                    <com.speed.provider.utills.MyEditText
                         android:id="@+id/txtaddressSource"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_30sdp"

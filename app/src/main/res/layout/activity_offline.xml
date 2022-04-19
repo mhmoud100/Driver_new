@@ -26,7 +26,7 @@
             android:layout_alignParentBottom="true"
             android:orientation="vertical">
 
-            <com.pinkcar.providers.utills.MyButton
+            <com.speed.provider.utills.MyButton
                 android:id="@+id/goOnlineBtn"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/button_height"

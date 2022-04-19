@@ -22,7 +22,7 @@
             android:src="@drawable/ic_back"
             app:tint="@color/white"/>
 
-        <com.pinkcar.providers.utills.MyBoldTextView
+        <com.speed.provider.utills.MyBoldTextView
             android:id="@+id/clanProTextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -50,7 +50,7 @@
 <!--            android:padding="5dp"-->
 <!--            android:src="@drawable/back_white" />-->
 
-<!--        <com.pinkcar.providers.utills.MyBoldTextView-->
+<!--        <com.speed.provider.utills.MyBoldTextView-->
 <!--            android:id="@+id/clanProTextView"-->
 <!--            android:layout_width="match_parent"-->
 <!--            android:layout_height="match_parent"-->
@@ -88,7 +88,7 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:id="@+id/first_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:id="@+id/last_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -134,7 +134,7 @@
                 android:layout_marginBottom="20dp"
                 android:orientation="vertical">
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/phone_number"
@@ -142,7 +142,7 @@
                     android:textStyle="bold" />
 
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:id="@+id/mobile_no"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -170,14 +170,14 @@
                 android:layout_marginBottom="20dp"
                 android:orientation="vertical">
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/email"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
-                <com.pinkcar.providers.utills.MyTextView
+                <com.speed.provider.utills.MyTextView
                     android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

@@ -63,7 +63,7 @@
             app:tint="@color/white"
             android:src="@drawable/ic_back" />
 
-        <com.pinkcar.providers.utills.MyBoldTextView
+        <com.speed.provider.utills.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"

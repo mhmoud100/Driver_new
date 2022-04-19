@@ -151,7 +151,7 @@
 
     <!--            android:background="@drawable/box_registrationmirror">-->
 
-    <!--            <com.pinkcar.providers.utills.MyBoldTextView-->
+    <!--            <com.speed.provider.utills.MyBoldTextView-->
     <!--                android:id="@+id/txtSignUp"-->
     <!--                android:layout_width="wrap_content"-->
     <!--                android:layout_height="wrap_content"-->
@@ -164,7 +164,7 @@
 
     <!--        </LinearLayout>-->
 
-    <com.pinkcar.providers.utills.MyTextView
+    <com.speed.provider.utills.MyTextView
         android:id="@+id/already_have_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -276,7 +276,7 @@
 <!--            android:gravity="center|start"-->
 <!--            android:orientation="vertical">-->
 
-<!--            <com.pinkcar.providers.utills.MyEditText-->
+<!--            <com.speed.provider.utills.MyEditText-->
 <!--                android:id="@+id/etName"-->
 <!--                android:layout_width="match_parent"-->
 <!--                android:layout_height="@dimen/_42sdp"-->
@@ -297,7 +297,7 @@
 <!--                android:background="@color/view_grey_bg_" />-->
 
 
-<!--            <com.pinkcar.providers.utills.MyEditText-->
+<!--            <com.speed.provider.utills.MyEditText-->
 <!--                android:id="@+id/etPassword"-->
 <!--                android:layout_width="match_parent"-->
 <!--                android:layout_height="@dimen/_42sdp"-->
@@ -318,7 +318,7 @@
 <!--                android:background="@color/view_grey_bg_" />-->
 
 
-<!--            <com.pinkcar.providers.utills.MyEditText-->
+<!--            <com.speed.provider.utills.MyEditText-->
 <!--                android:id="@+id/etEmail"-->
 <!--                android:layout_width="match_parent"-->
 <!--                android:layout_height="@dimen/_42sdp"-->
@@ -361,7 +361,7 @@
 
 <!--        android:src="@drawable/ic_launcher_web" />-->
 
-<!--    <com.pinkcar.providers.utills.MyBoldTextView-->
+<!--    <com.speed.provider.utills.MyBoldTextView-->
 <!--        android:id="@+id/button2"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content"-->

@@ -48,7 +48,7 @@
             android:src="@drawable/ic_back"
             app:tint="@color/white"/>
 
-        <com.pinkcar.providers.utills.MyBoldTextView
+        <com.speed.provider.utills.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
@@ -108,7 +108,7 @@
                             app:cardBackgroundColor="@color/colorPrimary"
                             app:cardCornerRadius="@dimen/_36sdp">
 
-                            <com.pinkcar.providers.utills.MyTextView
+                            <com.speed.provider.utills.MyTextView
                                 android:id="@+id/lblTarget"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -142,7 +142,7 @@
                             app:cardBackgroundColor="@color/colorPrimary"
                             app:cardCornerRadius="@dimen/_36sdp">
 
-                            <com.pinkcar.providers.utills.MyTextView
+                            <com.speed.provider.utills.MyTextView
                                 android:id="@+id/lblEarnings"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -174,7 +174,7 @@
                             app:cardBackgroundColor="@color/colorPrimary"
                             app:cardCornerRadius="@dimen/_36sdp">
 
-                            <com.pinkcar.providers.utills.MyTextView
+                            <com.speed.provider.utills.MyTextView
                                 android:id="@+id/lblCommision"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -303,7 +303,7 @@
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/ic_launcher_web" />
 
-                    <com.pinkcar.providers.utills.MyTextView
+                    <com.speed.provider.utills.MyTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/error_image"

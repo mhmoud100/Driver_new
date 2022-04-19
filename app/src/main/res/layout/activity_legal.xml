@@ -24,7 +24,7 @@
             android:src="@drawable/ic_back"
             app:tint="@color/white"/>
 
-        <com.pinkcar.providers.utills.MyBoldTextView
+        <com.speed.provider.utills.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
@@ -54,7 +54,7 @@
 <!--            android:padding="5dp"-->
 <!--            android:src="@drawable/back" />-->
 
-<!--        <com.pinkcar.providers.utills.MyBoldTextView-->
+<!--        <com.speed.provider.utills.MyBoldTextView-->
 <!--            android:layout_width="match_parent"-->
 <!--            android:layout_height="match_parent"-->
 <!--            android:layout_marginStart="10dp"-->
@@ -79,7 +79,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
-        <com.pinkcar.providers.utills.MyTextView
+        <com.speed.provider.utills.MyTextView
             android:id="@+id/copyrightTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
             android:textColor="@color/black_text_color"
             android:textSize="@dimen/_15sdp" />
 
-        <com.pinkcar.providers.utills.MyTextView
+        <com.speed.provider.utills.MyTextView
             android:id="@+id/termsConditionTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
             android:textColor="@color/black_text_color"
             android:textSize="@dimen/_15sdp" />
 
-        <com.pinkcar.providers.utills.MyTextView
+        <com.speed.provider.utills.MyTextView
             android:id="@+id/privacyPolicyTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
