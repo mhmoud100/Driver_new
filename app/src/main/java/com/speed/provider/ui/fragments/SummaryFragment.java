@@ -152,7 +152,7 @@ public class SummaryFragment extends Fragment implements View.OnClickListener {
             revenueTxt.setAnimationDuration(500)
                     .countAnimation(0, revenue);
         } else {
-            revenueTxt.setText("$ 0");
+            revenueTxt.setText("0 AED");
         }
         if (rides > 0) {
             noOfRideTxt.setAnimationDuration(500)

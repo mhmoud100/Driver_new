@@ -29,6 +29,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
@@ -74,6 +75,7 @@ public class DocumentStatus extends AppCompatActivity {
     public static String TAG = "DocumentStatus";
     public static int deviceHeight;
     public static int deviceWidth;
+    private ImageView backArrow;
     RecyclerView recDocuments;
     String documnetName = "", documentId = "";
     Uri documentUri;
@@ -126,10 +128,14 @@ public class DocumentStatus extends AppCompatActivity {
         }
 
         setContentView(R.layout.activity_document_status);
-        getSupportActionBar().setTitle("Document ");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        backArrow = findViewById(R.id.backArrow);
         recDocuments = findViewById(R.id.recDocuments);
-
+        backArrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(DocumentStatus.this, MainActivity.class));
+            }
+        });
         getDocList();
         DisplayMetrics displayMetrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
@@ -257,6 +263,7 @@ public class DocumentStatus extends AppCompatActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
 
+        super.onActivityResult(requestCode, resultCode, data);
         switch (requestCode) {
             case TAKE_PICTURE:
                 if (resultCode == Activity.RESULT_OK) {
@@ -521,6 +528,7 @@ public class DocumentStatus extends AppCompatActivity {
             return new PostAdapter.MyViewHolder(itemView);
         }
 
+        @RequiresApi(api = Build.VERSION_CODES.M)
         @Override
         public void onBindViewHolder(PostAdapter.MyViewHolder holder, int position) {
             try {

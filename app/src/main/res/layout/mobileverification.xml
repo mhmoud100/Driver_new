@@ -136,7 +136,7 @@
                     android:elevation="10dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="@dimen/_25sdp"
-                    android:background="@drawable/round_shape"
+                    android:background="@drawable/rounded_button"
                     android:src="@drawable/ic_chevron_right_black_24dp"
                     app:tint="@color/white" />
             </LinearLayout>

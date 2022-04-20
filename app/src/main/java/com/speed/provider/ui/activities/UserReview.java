@@ -1,5 +1,6 @@
 package com.speed.provider.ui.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -125,7 +126,7 @@ public class UserReview extends AppCompatActivity implements View.OnClickListene
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.backArrow) {
-            onBackPressed();
+            startActivity(new Intent(UserReview.this, MainActivity.class));
             finish();
         }
     }

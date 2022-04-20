@@ -1,9 +1,11 @@
 package com.speed.provider.ui.activities;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -18,7 +20,7 @@ import com.speed.provider.ui.fragments.PastTrips;
 import com.google.android.material.tabs.TabLayout;
 
 public class HistoryActivity extends AppCompatActivity {
-
+    ImageView backArrow;
     private ViewPager viewPager;
     private TabLayout tabLayout;
 
@@ -32,12 +34,13 @@ public class HistoryActivity extends AppCompatActivity {
         }
 
         setContentView(R.layout.activity_history);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         viewPager = findViewById(R.id.viewpager);
+        backArrow = findViewById(R.id.backArrow);
         tabLayout = findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
         viewPager.setAdapter(new SampleFragmentPagerAdapter(getSupportFragmentManager(),
                 this));
+        backArrow.setOnClickListener(v ->startActivity(new Intent(HistoryActivity.this, MainActivity.class)));
     }
 
     @Override

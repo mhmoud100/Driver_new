@@ -48,6 +48,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 import androidx.cardview.widget.CardView;
 import androidx.core.app.ActivityCompat;
@@ -488,14 +489,18 @@ public class DriverMapFragment extends Fragment implements
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @OnClick(R.id.online_offline_switch)
     void online_offline_switchClick() {
         if (online_offline_switch.isChecked()) {
             active_Status.setText(getActivity().getString(R.string.online));
+            active_Status.setTextColor(getActivity().getColor(R.color.green));
             offline_layout.setVisibility(View.GONE);
             goOnline();
         } else {
             active_Status.setText(getActivity().getString(R.string.offline));
+            active_Status.setTextColor(getActivity().getColor(R.color.red));
+
             offline_layout.setVisibility(View.VISIBLE);
             update(CurrentStatus, request_id);
 
@@ -623,6 +628,7 @@ public class DriverMapFragment extends Fragment implements
 
         online_offline_switch.setChecked(true);
         active_Status.setText(getActivity().getString(R.string.online));
+        active_Status.setTextColor(getActivity().getColor(R.color.green));
         statusCheck();
         return view;
     }
@@ -1121,6 +1127,7 @@ public class DriverMapFragment extends Fragment implements
 
                             online_offline_switch.setChecked(false);
                             active_Status.setText(getActivity().getString(R.string.offline));
+                            active_Status.setTextColor(getActivity().getColor(R.color.red));
                             offline_layout.setVisibility(View.VISIBLE);
                         }
                         try {
@@ -2263,6 +2270,7 @@ public class DriverMapFragment extends Fragment implements
                 if (response != null) {
                     if (response.optJSONObject("service").optString("status").equalsIgnoreCase("offline")) {
                         activeStatus.setText(getActivity().getString(R.string.offline));
+                        activeStatus.setTextColor(getContext().getColor(R.color.red));
                     } else {
                         displayMessage(getActivity().getString(R.string.something_went_wrong));
                     }
@@ -2507,6 +2515,7 @@ public class DriverMapFragment extends Fragment implements
         getActivity().finish();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     public void goOnline() {
         customDialog = new CustomDialog(getActivity());
         customDialog.setCancelable(false);
@@ -2523,6 +2532,7 @@ public class DriverMapFragment extends Fragment implements
                     customDialog.dismiss();
                     if (response.optJSONObject("service").optString("status").equalsIgnoreCase("active")) {
                         activeStatus.setText(getActivity().getString(R.string.online));
+                        activeStatus.setTextColor(getActivity().getColor(R.color.green));
                     } else {
                         displayMessage(getActivity().getString(R.string.something_went_wrong));
                     }

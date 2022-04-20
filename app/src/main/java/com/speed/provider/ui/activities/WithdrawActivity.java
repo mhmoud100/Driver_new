@@ -94,7 +94,6 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private void initViews() {
-        backArrow = findViewById(R.id.backArrow);
         addAccountDetailsBtn = findViewById(R.id.addAccountDetailsBtn);
         backArrow = findViewById(R.id.backArrow);
         recyclerWithdraw = findViewById(R.id.recyclerWithdraw);
@@ -112,7 +111,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.backArrow:
-                onBackPressed();
+                startActivity(new Intent(WithdrawActivity.this, MainActivity.class));
+
                 break;
             case R.id.addAccountDetailsBtn:
                 Intent intent = new Intent(this, WithdrawAmountActivity.class);
@@ -151,14 +151,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                     Log.v("TAG", "RESPONSE" + response);
                     if (response.optInt("status") == 1) {
                         int totalEarn = response.optInt("totalEarn");
-                        earnedMoneyTxtView.setText(SharedHelper.getKey(getApplicationContext(), "currency") + totalEarn + "");
+                        earnedMoneyTxtView.setText(totalEarn + ""+SharedHelper.getKey(getApplicationContext(), "currency"));
                         withdrawAdapter = new WithdrawAdapter(response);
                         recyclerWithdraw.setAdapter(withdrawAdapter);
 
 
                     } else {
                         int totalEarn = response.optInt("totalEarn");
-                        earnedMoneyTxtView.setText("$ " + totalEarn + "");
+                        earnedMoneyTxtView.setText( totalEarn + " AED");
                     }
 
                 } else {
