@@ -97,6 +97,7 @@ public class DocUploadActivity extends AppCompatActivity {
     int UploadPosition = 0;
     JSONArray responseArray;
     ImageView adapterImageView;
+    ImageView backArrow;
     Button adapterButton;
     int totalDocUpload = 0;
     String Profile;
@@ -191,6 +192,7 @@ public class DocUploadActivity extends AppCompatActivity {
         txtUploa = findViewById(R.id.txtUploa);
         btnDone = findViewById(R.id.btnDone);
         chkTerm = findViewById(R.id.chkTerm);
+        backArrow = findViewById(R.id.backArrow);
 
         btMotorInspectCertificate = findViewById(R.id.btMotorInspectCertificate);
         btPsvInsurenceCertificate = findViewById(R.id.btPsvInsurenceCertificate);
@@ -229,6 +231,8 @@ public class DocUploadActivity extends AppCompatActivity {
             d.getWindow().getAttributes().windowAnimations = R.style.dialog_animation;
             d.show();
         });
+
+
 
 
         btPSVLicense.setOnClickListener(v -> {
