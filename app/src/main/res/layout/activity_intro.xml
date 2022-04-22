@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/white"
     android:orientation="vertical"
     android:gravity="center">
 
@@ -16,7 +16,7 @@
         android:gravity="center"
         android:textSize="@dimen/_16sdp"
         android:fontFamily="@font/montserrat_semibold"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:text="@string/choose_language"/>
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,8 +36,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_14sdp"
                 android:text="@string/english"
-                android:buttonTint="@color/black"
-                android:textColor="@color/white"/>
+                android:buttonTint="@color/colorPrimary"
+                android:textColor="@color/black"/>
 
             <RadioButton
                 android:id="@+id/rdArb"
@@ -46,8 +46,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/_14sdp"
                 android:text="@string/arbic"
-                android:buttonTint="@color/black"
-                android:textColor="@color/white"/>
+                android:buttonTint="@color/colorPrimary"
+                android:textColor="@color/black"/>
 
         </RadioGroup>
 
@@ -63,7 +63,7 @@
         android:textColor="@color/white"
         android:textSize="@dimen/_16sdp"
         android:backgroundTint="#0000C0"
-        android:background="@drawable/round_shape"/>
+        android:background="@color/colorPrimary"/>
 
 
 </LinearLayout>
